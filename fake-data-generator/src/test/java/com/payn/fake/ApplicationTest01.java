@@ -27,7 +27,6 @@ public class ApplicationTest01 {
 			user.setUserName(name);
 			user.setPassword(password);
 			user.setPhone(phoneNumber);
-
 			System.out.println(i + "::" + user.toString());
 			userService.addUser(user);
 		}
